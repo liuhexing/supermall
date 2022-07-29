@@ -33,8 +33,15 @@
     },
     methods :{
       itemclick(){
-        // console.log(this.path);
-        this.$router.replace(this.path);
+        console.log(this.path);
+        // this.$router.push({name:this.path , query:{name:'xxxx' ,age:'11'}})
+        // this.$router.replace(this.path);
+        this.$router.push({
+                 name:this.path,
+                  params:{
+                      id:1
+        }
+})
       }
     }
   }

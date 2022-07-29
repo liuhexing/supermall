@@ -4,23 +4,23 @@
     <router-view/>
     <!-- 底部 -->
       <tab-bar>
-        <tab-bar-item  path="/home" activeColor="blue">
+        <tab-bar-item  path="home" activeColor="blue">
           <img slot="item-icon" src="~assets/img/tabbar/12.gif"/>
           <img slot="item-icon-active" src="~assets/img/tabbar/36.jpg"/>
           <div slot="item-text">首页</div>
         </tab-bar-item>
-        <tab-bar-item  path="/category">
+        <tab-bar-item  path="category">
           <img slot="item-icon" src="~assets/img/tabbar/12.gif"/>
           <img slot="item-icon-active" src="~assets/img/tabbar/36.jpg"/>
 
           <div slot="item-text">分类</div>
         </tab-bar-item>
-        <tab-bar-item  path="/cart">
+        <tab-bar-item  path="cart">
           <img slot="item-icon" src="~assets/img/tabbar/12.gif"/>
            <img slot="item-icon-active" src="~assets/img/tabbar/36.jpg"/>
           <div slot="item-text">购物车</div>
         </tab-bar-item>
-        <tab-bar-item path="/profile">
+        <tab-bar-item path="profile">
           <img slot="item-icon" src="~assets/img/tabbar/12.gif"/>
            <img slot="item-icon-active" src="~assets/img/tabbar/36.jpg"/>
           <div slot="item-text">我的</div>
