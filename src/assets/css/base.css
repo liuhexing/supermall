@@ -1,0 +1,12 @@
+@import "./normalize.css" ;
+
+:root{ --borderColor:#ccc; } 
+* ::before,
+* ::after {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
