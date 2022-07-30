@@ -34,14 +34,14 @@
     methods :{
       itemclick(){
         console.log(this.path);
-        // this.$router.push({name:this.path , query:{name:'xxxx' ,age:'11'}})
+        this.$router.push({name:this.path , query:{name:'xxxx' ,age:'11'}})
         // this.$router.replace(this.path);
-        this.$router.push({
-                 name:this.path,
-                  params:{
-                      id:1
-        }
-})
+        // this.$router.push({
+        //          name:this.path,
+        //           params:{
+        //               id:1
+        //           }
+        // })
       }
     }
   }

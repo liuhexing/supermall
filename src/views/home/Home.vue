@@ -1,5 +1,11 @@
 <template>
-    <h2>首页 {{this.$route.params.id}}</h2>
+    <div><h2>首页      ======{{this.$route.query}}</h2>
+        <ul v-for="(items,index) in  this.$route.query">
+            <li>{{index}}==={{items}}</li>
+        </ul>
+    
+    </div>
+    
 </template>
 <script>
     export default {

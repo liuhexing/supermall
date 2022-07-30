@@ -14,18 +14,22 @@ export default new Router({
   routes: [
     {
       path: '/home',
+      name:'home',
       component: Home
     },
     {
       path: '/cart',
+      name:'cart',
       component: Cart
     },
     {
       path: '/category',
+      name:'category',
       component: Category
     },
     {
       path: '/profile',
+      name:'profile',
       component: Profile
     },
   ]
